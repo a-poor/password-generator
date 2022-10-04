@@ -1,39 +1,50 @@
 <script lang="ts">
-  import Greet from './lib/Greet.svelte'
+  import "./app.css"
 </script>
 
-<main class="container">
-  <h1>Welcome to Tauri!</h1>
+<main class="w-full h-full">
+  <div class="my-5 mx-6 font-mono">
+    <h1 class="text-3xl font-bold mb-1">Password Generator</h1>
+    <p class="text-md mb-7">
+      Generate passwords with ease
+    </p>
 
-  <div class="row">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo vite" alt="Vite Logo" />
-    </a>
-    <a href="https://tauri.app" target="_blank">
-      <img src="/tauri.svg" class="logo tauri" alt="Tauri Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank">
-      <img src="/svelte.svg" class="logo svelte" alt="Svelte Logo" />
-    </a>
+    <p class="text-md mb-1">
+      Your password:
+    </p>
+    <div class="flex bg-zinc-500 rounded-lg w-60 mb-5">
+      <span class="p-2 flex-grow">
+        super-secret-value
+      </span>
+      <button class="bg-cyan-800 rounded">
+        <img src="/copy-icon.svg" alt="Copy Icon" class="w-5 h-5 stroke-5"/>
+      </button>
+    </div>
+
+    <form class="text-sm">
+      <div class="block mb-4">
+        <label for="num-words" class="mb-2">Number of words</label>
+        <input
+          type="number"
+          id="num-words"
+          name="num-words"
+          value="4"
+          class="border-2 border-gray-300 p-2 rounded-md block mt-1"
+        />
+      </div>
+      <div class="block mb-4">
+        <label for="num-words" class="mb-2">Separator</label>
+        <input
+          type="text"
+          id="separator"
+          name="separator"
+          value="-"
+          class="border-2 border-gray-300 p-2 rounded-md block mt-1"
+        />
+      </div>
+    </form>
   </div>
-
-  <p>
-    Click on the Tauri, Vite, and Svelte logos to learn more.
-  </p>
-
-  <div class="row">
-    <Greet />
-  </div>
-
-
 </main>
 
 <style>
-  .logo.vite:hover {
-    filter: drop-shadow(0 0 2em #747bff);
-  }
-
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00);
-  }
 </style>
