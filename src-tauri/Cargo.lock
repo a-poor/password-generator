@@ -1760,7 +1760,7 @@ dependencies = [
 
 [[package]]
 name = "password-generator"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "bcrypt",
  "rand 0.8.5",

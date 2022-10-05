@@ -17,7 +17,7 @@
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
-      "copyright": "",
+      "copyright": "MIT",
       "deb": {
         "depends": []
       },
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.austinpoor.dev",
+      "identifier": "com.austinpoor.tauri-password-generator",
       "longDescription": "A tool for generating random passwords.",
       "macOS": {
         "entitlements": null,
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": false,
-        "title": "password-generator",
+        "title": "Password Generator",
         "width": 575 
       }
     ]

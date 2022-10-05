@@ -1,14 +1,12 @@
 [package]
 name = "password-generator"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+version = "0.1.0"
+description = "A cross-platform desktop application for generating random passwords."
+authors = ["Austin Poor"]
+license = "MIT"
+repository = "https://github.com/a-poor/password-generator"
 edition = "2021"
 rust-version = "1.57"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
 tauri-build = { version = "1.1", features = [] }
