@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "password-generator",
-    "version": "0.0.0"
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -29,8 +29,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
-      "longDescription": "",
+      "identifier": "com.austinpoor.dev",
+      "longDescription": "A tool for generating random passwords.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -57,9 +57,9 @@
       {
         "fullscreen": false,
         "height": 600,
-        "resizable": true,
+        "resizable": false,
         "title": "password-generator",
-        "width": 800
+        "width": 575 
       }
     ]
   }
