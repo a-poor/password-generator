@@ -1,7 +1,11 @@
-# Tauri + Svelte + Typescript
+# password-generator
 
-This template should help get you started developing with Tauri, Svelte and TypeScript in Vite.
+[![publish](https://github.com/a-poor/password-generator/actions/workflows/publish.yml/badge.svg)](https://github.com/a-poor/password-generator/actions/workflows/publish.yml)
+[![test](https://github.com/a-poor/password-generator/actions/workflows/test.yml/badge.svg)](https://github.com/a-poor/password-generator/actions/workflows/test.yml)
 
-## Recommended IDE Setup
+_created by Austin Poor_
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+`password-generator` is a simple cross-platform destop app for generating random passwords, built with [Rust](https://www.rust-lang.org/), [Tauri](https://tauri.app/), and [Svelte](https://kit.svelte.dev/).
+
+Currently, it only creates [xkcd-style passwords](https://xkcd.com/936/).
+
